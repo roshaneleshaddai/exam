@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<style>
+    body { font-family: Arial, sans-serif; }
+    .submit{
+        background-color: rgb(43, 43, 193);
+        color: white;
+        padding: 8px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 20%;
+    }
+    .head{
+        width: 400px;
+        text-align: center;
+        background-color: aqua;
+    }
+</style>
+<body>
+    <!-- create a from with fields firstname,lastname,and email and signup button -->
+    <div class="head">
+        <p> please fill the form below to signup for our newsletter</p>
+    </div>
+    <form action="signup" method="post">
+        First Name:<br>
+        <input type="text" name="firstName"><br><br>
+        Last Name:<br>
+        <input type="text" name="lastName"><br><br>
+        Email:<br>
+        <input type="email" name="userEmail"><br><br>
+        <input class="submit" type="submit" value="signup">
+    </form>
+</body>
+</html>
